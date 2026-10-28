@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshEats | Recipe Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">🍳 FreshEats</a>
+            <div class="nav-actions">
+                <input type="text" id="search-bar" placeholder="Search recipes...">
+                <button id="theme-toggle" class="theme-btn">🌙 Mode</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <header class="hero">
+            <h1>Simple Recipes for Everyday Cooks</h1>
+            <p>Explore easy, healthy, and delicious frontend-crafted meals.</p>
+        </header>
+
+        <!-- Recipe Grid Area -->
+        <section class="recipe-grid" id="recipe-grid">
+            <!-- Recipes dynamically load here via JavaScript -->
+        </section>
+    </main>
+
+    <!-- Recipe Detail Modal Popup -->
+    <div class="modal" id="recipe-modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Recipe contents populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
